@@ -1,0 +1,255 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .main-menu {
+    background-color: rgba(103, 84, 83, 0.9);;
+    margin-top: 0;
+  }
+
+  .main-menu .navbar-brand {
+    position: relative !important;
+    height: 56px !important;
+    width: 140px !important;
+    margin-top: 0;
+  }
+
+  .navbar {
+    position: fixed !important;
+    top: 0px !important;
+  }
+
+  .main-menu .navbar-brand img {
+    max-width: 80%;
+  }
+
+  .navbar-toggler {
+    border: 2px solid #dfdfdf;
+  }
+
+  .navbar-toggler .navbar-toggler-icon {
+    font-size: 18px;
+    padding-top: 5px;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    width: 100%;
+  }
+
+  .about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .team {
+    margin-top: 40px;
+  }
+
+  .membership {
+    margin-bottom: 40px;
+  }
+
+  .membership .section-title {
+    margin-top: 40px;
+  }
+
+  .count {
+    margin-bottom: 40px;
+  }
+
+  /* Gallery */
+  .gallery .my-control {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  /* Count */
+  .count .all-counts {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .count .all-counts .count-item {
+    width: 50%;
+    text-align: center;
+  }
+
+  /* Colorful Tabs */
+  .colorful-tab-menu {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .classes .colorful-tab-menu-item a {
+    padding: 12px 12px;
+    font-size: 14px;
+    letter-spacing: .7px;
+  }
+
+  .colorful-tab-content ul li {
+    width: calc(100% / 2);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .colorful-tab-content ul li span {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .colorful-tab-content ul li i {
+    font-size: 38px;
+  }
+
+  .colorful-tab-content ul li p {
+    font-size: 14px;
+  }
+
+  .fixed-top {
+    top: -40px;
+  }
+
+  .to-top {
+    bottom: 30px;
+    right: 30px;
+  }
+
+  .to-top a {
+    width: 35px;
+    height: 35px;
+    line-height: 32px;
+  }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Main Menu */
+  .main-menu {
+    background-color: rgba(103, 84, 83, 0.9);;
+    margin-top: 0;
+  }
+  .main-menu .navbar-brand {
+    position: relative !important;
+    height: 69px !important;
+    margin-top: 0;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    width: 100%;
+  }
+
+  .navbar {
+    position: fixed !important;
+    top: 0px !important;
+  }
+
+  .about {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .team {
+    margin-top: 40px;
+  }
+
+  .membership {
+    margin-bottom: 40px;
+  }
+
+  .membership .section-title {
+    margin-top: 40px;
+  }
+
+  .count {
+    margin-bottom: 40px;
+  }
+
+  /* Gallery */
+  .gallery .my-control {
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+  }
+
+  /* Colorful Tabs */
+  .colorful-tab-content ul li {
+    width: calc(100% / 3);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .colorful-tab-content ul li span {
+    font-size: 13px;
+  }
+
+  .colorful-tab-menu {
+    flex-direction: row;
+  }
+
+  .fixed-top {
+    top: -40px;
+  }
+
+  .to-top {
+    bottom: 40px;
+    right: 40px;
+  }
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-menu {
+    
+    background-color: rgba(103, 84, 83, 0.9);
+    margin-top: 0;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link {
+    width: 100%;
+  }
+
+  .main-menu .navbar-brand {
+    position: relative !important;
+    height: 69px !important;
+    margin-top: 0;
+  }
+
+  .navbar {
+    position: fixed !important;
+    top: 0px !important;
+  }
+
+  /* Colorful Tabs */
+  .colorful-tab-content ul li {
+    width: calc(100% / 4);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .colorful-tab-content ul li span {
+    font-size: 13px;
+  }
+
+  .to-top {
+    bottom: 40px;
+    right: 40px;
+  }
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Colorful Tabs */
+  .colorful-tab-content ul li {
+    padding-top: 38px;
+    padding-bottom: 38px;
+  }
+
+  .footer .flickr ul li {
+    width: 42px;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+}
